@@ -20,12 +20,6 @@ Install other dependency by running
 pip install -r requirements.txt
 ```
 
-Additional Requirements for Bert:
-
-pip install bert-embedding
-If you want to run on GPU machine, please install `mxnet-cu92`.
-pip install mxnet-cu92
-
 ## Extract the bert embedding for training.
 Run the following command to process the pretrained glove embedding for training the word embedding:
 ```bash
